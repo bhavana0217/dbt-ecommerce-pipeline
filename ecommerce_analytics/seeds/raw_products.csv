@@ -1,0 +1,619 @@
+product_id,sku,product_name,category,unit_price_raw
+P-0001,SKU-00001,Pro Sports-1,Home & Kitchen,388.11
+P-0002,SKU-00002,Max Apparel-2,Electronics,222.24
+P-0003,SKU-00003,Ultra Beauty-3,Electronics,$430.01
+P-0004,SKU-00004,Max Toys-4,Sports,350.20
+P-0005,SKU-00005,Pro Home-5,Books,51.62
+P-0006,SKU-00006,Ultra Books-6,Toys,487.93
+P-0007,SKU-00007,Classic Sports-7,Grocery,$381.76
+P-0008,SKU-00008,Mini Apparel-8,Books,394.10
+P-0009,SKU-00009,Pro Electronics-9,Sports,68.42
+P-0010,SKU-00010,Ultra Apparel-10,Grocery,227.94
+P-0011,SKU-00011,Classic Home-11,Beauty,188.55
+P-0012,SKU-00012,Pro Home-12,Beauty,463.75
+P-0013,SKU-00013,Mini Sports-13,Beauty,323.71
+P-0014,SKU-00014,Pro Beauty-14,Books,412.27
+P-0015,SKU-00015,Pro Beauty-15,Books,224.49
+P-0016,SKU-00016,Mini Toys-16,Grocery,117.48
+P-0017,SKU-00017,Ultra Beauty-17,Sports,$279.52
+P-0018,SKU-00018,Mini Toys-18,Home & Kitchen,36.59
+P-0019,SKU-00019,Pro Electronics-19,Home & Kitchen,414.68
+P-0020,SKU-00020,Mini Apparel-20,Grocery,317.67
+P-0021,SKU-00021,Max Electronics-21,Apparel,380.25
+P-0022,SKU-00022,Max Sports-22,Books,180.49
+P-0023,SKU-00023,Mini Home-23,Sports,$485.50
+P-0024,SKU-00024,Ultra Apparel-24,Sports,447.09
+P-0025,SKU-00025,Max Beauty-25,Home & Kitchen,390.30
+P-0026,SKU-00026,Max Electronics-26,Grocery,101.35
+P-0027,SKU-00027,Classic Sports-27,Beauty,$236.03
+P-0028,SKU-00028,Pro Apparel-28,Apparel,26.68
+P-0029,SKU-00029,Max Home-29,Grocery,81.37
+P-0030,SKU-00030,Ultra Sports-30,Toys,343.11
+P-0031,SKU-00031,Max Beauty-31,Toys,373.66
+P-0032,SKU-00032,Classic Grocery-32,Grocery,483.92
+P-0033,SKU-00033,Ultra Apparel-33,Beauty,$166.28
+P-0034,SKU-00034,Pro Apparel-34,Electronics,188.38
+P-0035,SKU-00035,Pro Books-35,Beauty,237.43
+P-0036,SKU-00036,Mini Beauty-36,Grocery,98.79
+P-0037,SKU-00037,Mini Toys-37,Apparel,69.31
+P-0038,SKU-00038,Classic Toys-38,Electronics,240.47
+P-0039,SKU-00039,Pro Electronics-39,Books,117.32
+P-0040,SKU-00040,Pro Beauty-40,Grocery,336.56
+P-0041,SKU-00041,Ultra Sports-41,Apparel,$221.39
+P-0042,SKU-00042,Max Apparel-42,Electronics,417.18
+P-0043,SKU-00043,Ultra Home-43,Grocery,351.63
+P-0044,SKU-00044,Mini Electronics-44,Electronics,159.62
+P-0045,SKU-00045,Classic Grocery-45,Grocery,416.97
+P-0046,SKU-00046,Classic Beauty-46,Electronics,403.36
+P-0047,SKU-00047,Pro Electronics-47,Home & Kitchen,196.80
+P-0048,SKU-00048,Max Apparel-48,Apparel,$147.72
+P-0049,SKU-00049,Ultra Toys-49,Beauty,342.84
+P-0050,SKU-00050,Pro Apparel-50,Books,74.18
+P-0051,SKU-00051,Ultra Books-51,Toys,103.95
+P-0052,SKU-00052,Classic Grocery-52,Apparel,$8.64
+P-0053,SKU-00053,Max Apparel-53,Beauty,$394.53
+P-0054,SKU-00054,Ultra Books-54,Beauty,334.10
+P-0055,SKU-00055,Ultra Grocery-55,Sports,354.06
+P-0056,SKU-00056,Max Electronics-56,Sports,391.46
+P-0057,SKU-00057,Pro Home-57,Apparel,232.16
+P-0058,SKU-00058,Ultra Sports-58,Beauty,286.53
+P-0059,SKU-00059,Ultra Sports-59,Sports,74.20
+P-0060,SKU-00060,Pro Apparel-60,Sports,61.69
+P-0061,SKU-00061,Classic Home-61,Sports,$335.86
+P-0062,SKU-00062,Mini Toys-62,Apparel,238.19
+P-0063,SKU-00063,Ultra Electronics-63,Home & Kitchen,$284.79
+P-0064,SKU-00064,Pro Sports-64,Electronics,383.67
+P-0065,SKU-00065,Ultra Beauty-65,Books,319.19
+P-0066,SKU-00066,Mini Home-66,Beauty,279.02
+P-0067,SKU-00067,Ultra Toys-67,,281.81
+P-0068,SKU-00068,Classic Toys-68,Beauty,155.46
+P-0069,SKU-00069,Pro Toys-69,Grocery,20.25
+P-0070,SKU-00070,Mini Books-70,Beauty,221.18
+P-0071,SKU-00071,Ultra Toys-71,Apparel,111.22
+P-0072,SKU-00072,Classic Books-72,Toys,207.22
+P-0073,SKU-00073,Max Books-73,Apparel,427.43
+P-0074,SKU-00074,Classic Home-74,Sports,120.80
+P-0075,SKU-00075,Max Toys-75,Books,$33.86
+P-0076,SKU-00076,Max Apparel-76,Beauty,144.29
+P-0077,SKU-00077,Mini Electronics-77,Beauty,150.33
+P-0078,SKU-00078,Pro Books-78,Apparel,332.65
+P-0079,SKU-00079,Classic Sports-79,Books,280.73
+P-0080,SKU-00080,Classic Home-80,Toys,393.03
+P-0081,SKU-00081,Ultra Sports-81,Electronics,333.84
+P-0082,SKU-00082,Ultra Toys-82,Books,206.16
+P-0083,SKU-00083,Mini Beauty-83,Home & Kitchen,407.94
+P-0084,SKU-00084,Classic Books-84,Beauty,87.65
+P-0085,SKU-00085,Ultra Beauty-85,Electronics,16.24
+P-0086,SKU-00086,Mini Apparel-86,Beauty,49.57
+P-0087,SKU-00087,Mini Grocery-87,Home & Kitchen,362.57
+P-0088,SKU-00088,Pro Apparel-88,Beauty,233.63
+P-0089,SKU-00089,Max Grocery-89,Beauty,84.83
+P-0090,SKU-00090,Pro Grocery-90,Grocery,253.02
+P-0091,SKU-00091,Max Books-91,Grocery,80.39
+P-0092,SKU-00092,Max Toys-92,Grocery,349.68
+P-0093,SKU-00093,Mini Grocery-93,Beauty,225.85
+P-0094,SKU-00094,Classic Grocery-94,Sports,193.61
+P-0095,SKU-00095,Classic Beauty-95,Books,154.25
+P-0096,SKU-00096,Pro Home-96,Toys,316.99
+P-0097,SKU-00097,Ultra Apparel-97,Books,184.10
+P-0098,SKU-00098,Mini Electronics-98,Toys,48.39
+P-0099,SKU-00099,Max Electronics-99,Toys,63.41
+P-0100,SKU-00100,Classic Sports-100,Toys,481.14
+P-0101,SKU-00101,Max Beauty-101,Sports,454.75
+P-0102,SKU-00102,Pro Toys-102,Toys,351.36
+P-0103,SKU-00103,Mini Home-103,Electronics,136.61
+P-0104,SKU-00104,Max Electronics-104,Toys,484.74
+P-0105,SKU-00105,Mini Home-105,Toys,$390.48
+P-0106,SKU-00106,Mini Books-106,Toys,359.86
+P-0107,SKU-00107,Mini Sports-107,Grocery,227.43
+P-0108,SKU-00108,Max Electronics-108,Books,$139.76
+P-0109,SKU-00109,Pro Electronics-109,Beauty,52.71
+P-0110,SKU-00110,Pro Home-110,Grocery,451.79
+P-0111,SKU-00111,Max Beauty-111,Sports,230.61
+P-0112,SKU-00112,Ultra Apparel-112,Home & Kitchen,105.17
+P-0113,SKU-00113,Pro Electronics-113,Toys,156.45
+P-0114,SKU-00114,Ultra Apparel-114,Beauty,291.71
+P-0115,SKU-00115,Classic Apparel-115,Electronics,$92.50
+P-0116,SKU-00116,Mini Books-116,Books,429.02
+P-0117,SKU-00117,Mini Grocery-117,Books,$380.47
+P-0118,SKU-00118,Mini Home-118,Sports,361.13
+P-0119,SKU-00119,Max Grocery-119,Sports,218.89
+P-0120,SKU-00120,Ultra Apparel-120,Grocery,315.52
+P-0121,SKU-00121,Mini Toys-121,Grocery,294.13
+P-0122,SKU-00122,Ultra Grocery-122,Sports,326.67
+P-0123,SKU-00123,Max Sports-123,Beauty,46.80
+P-0124,SKU-00124,Mini Grocery-124,Beauty,$210.82
+P-0125,SKU-00125,Mini Grocery-125,Apparel,25.60
+P-0126,SKU-00126,Mini Beauty-126,Books,249.53
+P-0127,SKU-00127,Max Books-127,Books,168.28
+P-0128,SKU-00128,Mini Sports-128,Beauty,76.54
+P-0129,SKU-00129,Ultra Books-129,Home & Kitchen,$56.18
+P-0130,SKU-00130,Mini Sports-130,Sports,295.88
+P-0131,SKU-00131,Ultra Sports-131,Home & Kitchen,89.44
+P-0132,SKU-00132,Max Home-132,Electronics,462.93
+P-0133,SKU-00133,Ultra Grocery-133,Electronics,292.63
+P-0134,SKU-00134,Mini Grocery-134,Home & Kitchen,176.70
+P-0135,SKU-00135,Classic Grocery-135,Apparel,297.50
+P-0136,SKU-00136,Pro Electronics-136,Sports,16.29
+P-0137,SKU-00137,Ultra Apparel-137,Toys,$479.49
+P-0138,SKU-00138,Max Beauty-138,Toys,243.74
+P-0139,SKU-00139,Mini Sports-139,Toys,392.45
+P-0140,SKU-00140,Max Electronics-140,Apparel,45.95
+P-0141,SKU-00141,Ultra Beauty-141,Apparel,245.90
+P-0142,SKU-00142,Ultra Apparel-142,Toys,247.90
+P-0143,SKU-00143,Max Grocery-143,Beauty,469.22
+P-0144,SKU-00144,Classic Grocery-144,Beauty,288.01
+P-0145,SKU-00145,Max Beauty-145,Beauty,239.38
+P-0146,SKU-00146,Classic Home-146,Home & Kitchen,137.15
+P-0147,SKU-00147,Max Sports-147,Grocery,169.13
+P-0148,SKU-00148,Mini Sports-148,Grocery,262.73
+P-0149,SKU-00149,Max Electronics-149,Books,222.26
+P-0150,SKU-00150,Pro Apparel-150,Electronics,15.70
+P-0151,SKU-00151,Classic Electronics-151,Home & Kitchen,414.01
+P-0152,SKU-00152,Mini Sports-152,Toys,448.60
+P-0153,SKU-00153,Mini Apparel-153,Toys,74.42
+P-0154,SKU-00154,Pro Home-154,Grocery,279.25
+P-0155,SKU-00155,Mini Electronics-155,Books,58.74
+P-0156,SKU-00156,Pro Toys-156,Electronics,337.76
+P-0157,SKU-00157,Max Grocery-157,Beauty,144.21
+P-0158,SKU-00158,Max Grocery-158,Electronics,331.41
+P-0159,SKU-00159,Max Home-159,Grocery,364.86
+P-0160,SKU-00160,Mini Apparel-160,,385.48
+P-0161,SKU-00161,Ultra Home-161,Electronics,58.33
+P-0162,SKU-00162,Pro Beauty-162,Apparel,458.43
+P-0163,SKU-00163,Pro Home-163,Sports,118.96
+P-0164,SKU-00164,Classic Toys-164,Grocery,23.52
+P-0165,SKU-00165,Max Home-165,Home & Kitchen,279.65
+P-0166,SKU-00166,Classic Toys-166,Sports,188.61
+P-0167,SKU-00167,Classic Sports-167,Grocery,415.75
+P-0168,SKU-00168,Mini Grocery-168,Toys,405.08
+P-0169,SKU-00169,Classic Beauty-169,Beauty,161.98
+P-0170,SKU-00170,Ultra Toys-170,,476.69
+P-0171,SKU-00171,Mini Toys-171,Home & Kitchen,149.00
+P-0172,SKU-00172,Pro Home-172,Books,259.95
+P-0173,SKU-00173,Mini Apparel-173,Grocery,131.70
+P-0174,SKU-00174,Ultra Toys-174,Home & Kitchen,$468.34
+P-0175,SKU-00175,Classic Books-175,Toys,$86.48
+P-0176,SKU-00176,Classic Toys-176,Grocery,27.23
+P-0177,SKU-00177,Pro Apparel-177,Sports,220.37
+P-0178,SKU-00178,Pro Toys-178,Apparel,496.23
+P-0179,SKU-00179,Classic Electronics-179,,446.38
+P-0180,SKU-00180,Classic Books-180,Home & Kitchen,375.56
+P-0181,SKU-00181,Mini Home-181,Apparel,445.94
+P-0182,SKU-00182,Mini Beauty-182,Home & Kitchen,447.26
+P-0183,SKU-00183,Classic Grocery-183,Electronics,261.83
+P-0184,SKU-00184,Mini Sports-184,Home & Kitchen,161.38
+P-0185,SKU-00185,Classic Sports-185,Toys,$387.15
+P-0186,SKU-00186,Mini Sports-186,Toys,332.52
+P-0187,SKU-00187,Pro Beauty-187,Books,189.96
+P-0188,SKU-00188,Classic Electronics-188,Toys,51.76
+P-0189,SKU-00189,Max Electronics-189,Grocery,374.66
+P-0190,SKU-00190,Classic Beauty-190,Books,134.92
+P-0191,SKU-00191,Ultra Sports-191,Home & Kitchen,468.72
+P-0192,SKU-00192,Pro Sports-192,Electronics,124.28
+P-0193,SKU-00193,Ultra Apparel-193,Books,65.77
+P-0194,SKU-00194,Ultra Beauty-194,Books,416.40
+P-0195,SKU-00195,Classic Home-195,Grocery,80.88
+P-0196,SKU-00196,Classic Books-196,Grocery,93.74
+P-0197,SKU-00197,Ultra Beauty-197,Toys,301.69
+P-0198,SKU-00198,Max Books-198,Toys,437.91
+P-0199,SKU-00199,Max Apparel-199,Sports,$102.24
+P-0200,SKU-00200,Classic Apparel-200,Grocery,158.61
+P-0201,SKU-00201,Max Books-201,Beauty,$389.82
+P-0202,SKU-00202,Mini Sports-202,Apparel,486.05
+P-0203,SKU-00203,Pro Sports-203,Apparel,$252.87
+P-0204,SKU-00204,Max Home-204,Books,$76.23
+P-0205,SKU-00205,Max Toys-205,Home & Kitchen,11.90
+P-0206,SKU-00206,Pro Grocery-206,Sports,118.68
+P-0207,SKU-00207,Classic Beauty-207,Beauty,$70.25
+P-0208,SKU-00208,Pro Books-208,Books,340.44
+P-0209,SKU-00209,Classic Beauty-209,Grocery,$65.31
+P-0210,SKU-00210,Ultra Electronics-210,Books,$255.63
+P-0211,SKU-00211,Ultra Beauty-211,Beauty,348.66
+P-0212,SKU-00212,Ultra Books-212,Electronics,292.65
+P-0213,SKU-00213,Ultra Home-213,Home & Kitchen,103.89
+P-0214,SKU-00214,Pro Home-214,,$403.04
+P-0215,SKU-00215,Ultra Books-215,,359.13
+P-0216,SKU-00216,Ultra Toys-216,Apparel,370.80
+P-0217,SKU-00217,Classic Apparel-217,Beauty,69.87
+P-0218,SKU-00218,Pro Sports-218,Electronics,66.26
+P-0219,SKU-00219,Mini Toys-219,Apparel,$464.14
+P-0220,SKU-00220,Mini Apparel-220,Books,201.80
+P-0221,SKU-00221,Pro Home-221,Books,153.97
+P-0222,SKU-00222,Max Sports-222,Toys,246.85
+P-0223,SKU-00223,Pro Beauty-223,Beauty,$333.12
+P-0224,SKU-00224,Mini Toys-224,Apparel,478.03
+P-0225,SKU-00225,Classic Sports-225,Home & Kitchen,146.79
+P-0226,SKU-00226,Mini Apparel-226,Apparel,462.78
+P-0227,SKU-00227,Pro Books-227,Electronics,$17.31
+P-0228,SKU-00228,Max Books-228,Toys,279.82
+P-0229,SKU-00229,Mini Electronics-229,Sports,318.82
+P-0230,SKU-00230,Max Beauty-230,Grocery,57.42
+P-0231,SKU-00231,Pro Books-231,Books,74.47
+P-0232,SKU-00232,Classic Beauty-232,Electronics,$212.46
+P-0233,SKU-00233,Classic Electronics-233,Sports,483.28
+P-0234,SKU-00234,Classic Electronics-234,Home & Kitchen,300.04
+P-0235,SKU-00235,Mini Apparel-235,Electronics,466.85
+P-0236,SKU-00236,Max Beauty-236,Grocery,$403.16
+P-0237,SKU-00237,Classic Sports-237,Apparel,236.35
+P-0238,SKU-00238,Ultra Home-238,Electronics,393.46
+P-0239,SKU-00239,Classic Grocery-239,Grocery,13.83
+P-0240,SKU-00240,Mini Sports-240,Apparel,59.03
+P-0241,SKU-00241,Pro Sports-241,Grocery,415.57
+P-0242,SKU-00242,Classic Electronics-242,Electronics,399.42
+P-0243,SKU-00243,Classic Beauty-243,Sports,$120.16
+P-0244,SKU-00244,Pro Electronics-244,Toys,267.73
+P-0245,SKU-00245,Mini Beauty-245,Books,304.98
+P-0246,SKU-00246,Pro Toys-246,,$434.53
+P-0247,SKU-00247,Classic Toys-247,Toys,303.54
+P-0248,SKU-00248,Mini Electronics-248,Home & Kitchen,209.22
+P-0249,SKU-00249,Max Grocery-249,Books,190.22
+P-0250,SKU-00250,Pro Beauty-250,Toys,$215.81
+P-0251,SKU-00251,Mini Sports-251,Beauty,327.71
+P-0252,SKU-00252,Ultra Apparel-252,Apparel,434.41
+P-0253,SKU-00253,Ultra Books-253,Home & Kitchen,229.68
+P-0254,SKU-00254,Ultra Sports-254,Home & Kitchen,127.68
+P-0255,SKU-00255,Pro Home-255,Grocery,122.15
+P-0256,SKU-00256,Max Grocery-256,Books,374.28
+P-0257,SKU-00257,Classic Home-257,Grocery,409.20
+P-0258,SKU-00258,Classic Sports-258,Books,57.11
+P-0259,SKU-00259,Classic Grocery-259,Electronics,37.95
+P-0260,SKU-00260,Classic Apparel-260,Apparel,299.24
+P-0261,SKU-00261,Max Toys-261,Electronics,77.36
+P-0262,SKU-00262,Max Beauty-262,Grocery,413.21
+P-0263,SKU-00263,Pro Grocery-263,Books,158.62
+P-0264,SKU-00264,Pro Home-264,,76.22
+P-0265,SKU-00265,Mini Home-265,Sports,460.88
+P-0266,SKU-00266,Classic Electronics-266,Books,86.94
+P-0267,SKU-00267,Pro Toys-267,Home & Kitchen,$145.94
+P-0268,SKU-00268,Max Home-268,Sports,81.04
+P-0269,SKU-00269,Mini Home-269,Apparel,62.17
+P-0270,SKU-00270,Mini Books-270,Apparel,15.47
+P-0271,SKU-00271,Mini Books-271,,32.42
+P-0272,SKU-00272,Ultra Books-272,Grocery,91.45
+P-0273,SKU-00273,Ultra Home-273,Apparel,31.42
+P-0274,SKU-00274,Max Electronics-274,Home & Kitchen,297.62
+P-0275,SKU-00275,Ultra Home-275,Home & Kitchen,341.95
+P-0276,SKU-00276,Pro Toys-276,Beauty,199.85
+P-0277,SKU-00277,Max Sports-277,Grocery,162.41
+P-0278,SKU-00278,Ultra Sports-278,Grocery,254.74
+P-0279,SKU-00279,Ultra Books-279,Grocery,438.13
+P-0280,SKU-00280,Classic Toys-280,Toys,426.31
+P-0281,SKU-00281,Ultra Home-281,Electronics,26.52
+P-0282,SKU-00282,Classic Apparel-282,Apparel,94.84
+P-0283,SKU-00283,Ultra Sports-283,Home & Kitchen,122.19
+P-0284,SKU-00284,Pro Beauty-284,Books,128.45
+P-0285,SKU-00285,Mini Electronics-285,Books,287.76
+P-0286,SKU-00286,Pro Books-286,Books,211.05
+P-0287,SKU-00287,Classic Home-287,Sports,29.38
+P-0288,SKU-00288,Mini Home-288,Grocery,189.94
+P-0289,SKU-00289,Pro Apparel-289,,264.26
+P-0290,SKU-00290,Ultra Toys-290,Sports,55.33
+P-0291,SKU-00291,Pro Electronics-291,Grocery,417.56
+P-0292,SKU-00292,Mini Electronics-292,Beauty,$30.72
+P-0293,SKU-00293,Classic Toys-293,,462.80
+P-0294,SKU-00294,Max Toys-294,Apparel,54.06
+P-0295,SKU-00295,Classic Apparel-295,Electronics,422.57
+P-0296,SKU-00296,Mini Electronics-296,Books,451.81
+P-0297,SKU-00297,Pro Books-297,Books,489.89
+P-0298,SKU-00298,Pro Books-298,Books,402.00
+P-0299,SKU-00299,Ultra Grocery-299,Grocery,390.84
+P-0300,SKU-00300,Ultra Apparel-300,Grocery,323.03
+P-0301,SKU-00301,Ultra Electronics-301,Electronics,$390.60
+P-0302,SKU-00302,Classic Toys-302,Grocery,71.60
+P-0303,SKU-00303,Ultra Sports-303,Electronics,270.35
+P-0304,SKU-00304,Classic Sports-304,Books,259.54
+P-0305,SKU-00305,Mini Grocery-305,Toys,429.50
+P-0306,SKU-00306,Ultra Grocery-306,Books,234.09
+P-0307,SKU-00307,Max Sports-307,Toys,195.62
+P-0308,SKU-00308,Max Home-308,Books,$321.58
+P-0309,SKU-00309,Classic Sports-309,Toys,$136.90
+P-0310,SKU-00310,Mini Books-310,Books,74.19
+P-0311,SKU-00311,Mini Sports-311,Electronics,241.55
+P-0312,SKU-00312,Mini Books-312,Home & Kitchen,$211.36
+P-0313,SKU-00313,Ultra Grocery-313,,120.12
+P-0314,SKU-00314,Classic Books-314,Electronics,$186.92
+P-0315,SKU-00315,Mini Books-315,Apparel,186.36
+P-0316,SKU-00316,Max Books-316,Sports,167.11
+P-0317,SKU-00317,Pro Electronics-317,Grocery,192.83
+P-0318,SKU-00318,Max Apparel-318,Sports,344.44
+P-0319,SKU-00319,Ultra Sports-319,Grocery,151.95
+P-0320,SKU-00320,Ultra Apparel-320,Grocery,474.68
+P-0321,SKU-00321,Classic Books-321,Sports,458.59
+P-0322,SKU-00322,Ultra Home-322,Beauty,243.05
+P-0323,SKU-00323,Ultra Home-323,Grocery,$167.54
+P-0324,SKU-00324,Max Books-324,Home & Kitchen,$270.04
+P-0325,SKU-00325,Pro Apparel-325,Grocery,425.04
+P-0326,SKU-00326,Mini Apparel-326,Books,328.03
+P-0327,SKU-00327,Mini Grocery-327,Books,403.17
+P-0328,SKU-00328,Max Home-328,Home & Kitchen,$268.70
+P-0329,SKU-00329,Pro Apparel-329,Sports,318.29
+P-0330,SKU-00330,Classic Beauty-330,Sports,147.64
+P-0331,SKU-00331,Classic Beauty-331,Sports,368.77
+P-0332,SKU-00332,Classic Apparel-332,Home & Kitchen,$105.19
+P-0333,SKU-00333,Max Home-333,Books,348.93
+P-0334,SKU-00334,Max Electronics-334,Electronics,431.06
+P-0335,SKU-00335,Max Sports-335,Toys,$70.39
+P-0336,SKU-00336,Pro Grocery-336,Sports,309.12
+P-0337,SKU-00337,Classic Grocery-337,Toys,52.07
+P-0338,SKU-00338,Pro Electronics-338,Toys,364.23
+P-0339,SKU-00339,Ultra Books-339,Books,46.82
+P-0340,SKU-00340,Classic Books-340,Home & Kitchen,468.29
+P-0341,SKU-00341,Max Apparel-341,Grocery,73.02
+P-0342,SKU-00342,Mini Beauty-342,Electronics,$479.65
+P-0343,SKU-00343,Mini Toys-343,Home & Kitchen,401.44
+P-0344,SKU-00344,Max Books-344,Home & Kitchen,298.87
+P-0345,SKU-00345,Max Grocery-345,Sports,392.40
+P-0346,SKU-00346,Pro Toys-346,Beauty,398.58
+P-0347,SKU-00347,Classic Electronics-347,Grocery,473.28
+P-0348,SKU-00348,Mini Sports-348,Apparel,130.42
+P-0349,SKU-00349,Classic Books-349,Books,297.09
+P-0350,SKU-00350,Pro Beauty-350,Sports,$52.05
+P-0351,SKU-00351,Max Grocery-351,Sports,$310.00
+P-0352,SKU-00352,Max Apparel-352,Apparel,89.79
+P-0353,SKU-00353,Classic Books-353,Beauty,284.65
+P-0354,SKU-00354,Mini Electronics-354,,288.35
+P-0355,SKU-00355,Classic Grocery-355,Home & Kitchen,$235.66
+P-0356,SKU-00356,Max Home-356,Books,263.70
+P-0357,SKU-00357,Max Sports-357,Grocery,383.14
+P-0358,SKU-00358,Classic Grocery-358,Books,400.63
+P-0359,SKU-00359,Pro Toys-359,Electronics,248.62
+P-0360,SKU-00360,Classic Beauty-360,Grocery,301.80
+P-0361,SKU-00361,Max Toys-361,Beauty,465.96
+P-0362,SKU-00362,Pro Beauty-362,,$64.27
+P-0363,SKU-00363,Ultra Toys-363,Toys,62.97
+P-0364,SKU-00364,Max Grocery-364,Electronics,48.42
+P-0365,SKU-00365,Max Beauty-365,Grocery,330.64
+P-0366,SKU-00366,Classic Home-366,Books,212.21
+P-0367,SKU-00367,Classic Grocery-367,Beauty,388.29
+P-0368,SKU-00368,Classic Beauty-368,Sports,337.26
+P-0369,SKU-00369,Ultra Grocery-369,Books,170.15
+P-0370,SKU-00370,Classic Sports-370,Toys,449.69
+P-0371,SKU-00371,Mini Books-371,Home & Kitchen,382.45
+P-0372,SKU-00372,Classic Apparel-372,Grocery,138.91
+P-0373,SKU-00373,Mini Beauty-373,Sports,185.28
+P-0374,SKU-00374,Classic Home-374,Beauty,160.65
+P-0375,SKU-00375,Max Beauty-375,Electronics,83.02
+P-0376,SKU-00376,Classic Grocery-376,Home & Kitchen,$78.15
+P-0377,SKU-00377,Max Home-377,Grocery,$468.38
+P-0378,SKU-00378,Ultra Sports-378,Electronics,221.76
+P-0379,SKU-00379,Pro Beauty-379,Electronics,194.74
+P-0380,SKU-00380,Ultra Toys-380,Home & Kitchen,366.19
+P-0381,SKU-00381,Pro Toys-381,Home & Kitchen,278.73
+P-0382,SKU-00382,Classic Electronics-382,,468.39
+P-0383,SKU-00383,Pro Books-383,Grocery,391.25
+P-0384,SKU-00384,Ultra Grocery-384,Apparel,242.29
+P-0385,SKU-00385,Mini Sports-385,Electronics,191.30
+P-0386,SKU-00386,Classic Beauty-386,Toys,493.38
+P-0387,SKU-00387,Max Books-387,Apparel,360.29
+P-0388,SKU-00388,Ultra Grocery-388,Beauty,475.84
+P-0389,SKU-00389,Mini Beauty-389,Sports,$63.65
+P-0390,SKU-00390,Classic Electronics-390,Books,426.01
+P-0391,SKU-00391,Pro Apparel-391,Home & Kitchen,320.35
+P-0392,SKU-00392,Max Sports-392,Sports,65.35
+P-0393,SKU-00393,Ultra Beauty-393,Grocery,296.19
+P-0394,SKU-00394,Max Books-394,Grocery,344.62
+P-0395,SKU-00395,Ultra Beauty-395,Apparel,11.09
+P-0396,SKU-00396,Max Books-396,Apparel,229.89
+P-0397,SKU-00397,Max Beauty-397,Home & Kitchen,$413.57
+P-0398,SKU-00398,Max Grocery-398,Beauty,151.20
+P-0399,SKU-00399,Mini Apparel-399,Grocery,231.98
+P-0400,SKU-00400,Mini Home-400,Grocery,223.95
+P-0401,SKU-00401,Max Grocery-401,Sports,154.45
+P-0402,SKU-00402,Mini Sports-402,Beauty,459.63
+P-0403,SKU-00403,Pro Toys-403,Apparel,391.74
+P-0404,SKU-00404,Pro Apparel-404,Grocery,59.74
+P-0405,SKU-00405,Mini Home-405,Toys,$498.53
+P-0406,SKU-00406,Mini Grocery-406,Toys,440.20
+P-0407,SKU-00407,Max Home-407,Books,145.53
+P-0408,SKU-00408,Max Toys-408,Beauty,$419.26
+P-0409,SKU-00409,Pro Sports-409,Toys,57.68
+P-0410,SKU-00410,Ultra Beauty-410,Home & Kitchen,499.56
+P-0411,SKU-00411,Pro Electronics-411,Toys,334.51
+P-0412,SKU-00412,Pro Beauty-412,Apparel,326.81
+P-0413,SKU-00413,Mini Electronics-413,Electronics,49.77
+P-0414,SKU-00414,Ultra Beauty-414,Electronics,449.03
+P-0415,SKU-00415,Classic Beauty-415,Books,$19.35
+P-0416,SKU-00416,Classic Beauty-416,Home & Kitchen,124.21
+P-0417,SKU-00417,Max Beauty-417,Sports,75.80
+P-0418,SKU-00418,Max Home-418,Toys,$389.50
+P-0419,SKU-00419,Pro Books-419,Toys,103.11
+P-0420,SKU-00420,Classic Toys-420,Sports,455.77
+P-0421,SKU-00421,Max Grocery-421,Beauty,329.85
+P-0422,SKU-00422,Ultra Grocery-422,Toys,22.90
+P-0423,SKU-00423,Max Home-423,Sports,7.69
+P-0424,SKU-00424,Pro Grocery-424,Apparel,30.57
+P-0425,SKU-00425,Ultra Electronics-425,Electronics,304.93
+P-0426,SKU-00426,Ultra Beauty-426,Books,401.73
+P-0427,SKU-00427,Pro Beauty-427,Apparel,123.08
+P-0428,SKU-00428,Mini Beauty-428,Beauty,425.46
+P-0429,SKU-00429,Ultra Books-429,Toys,33.33
+P-0430,SKU-00430,Classic Sports-430,Grocery,401.48
+P-0431,SKU-00431,Mini Books-431,Books,464.26
+P-0432,SKU-00432,Pro Beauty-432,Electronics,387.19
+P-0433,SKU-00433,Max Toys-433,Beauty,350.57
+P-0434,SKU-00434,Mini Beauty-434,Books,419.80
+P-0435,SKU-00435,Mini Grocery-435,Books,24.87
+P-0436,SKU-00436,Max Grocery-436,Electronics,104.88
+P-0437,SKU-00437,Pro Electronics-437,Toys,66.84
+P-0438,SKU-00438,Ultra Apparel-438,Electronics,$254.74
+P-0439,SKU-00439,Mini Books-439,Grocery,373.87
+P-0440,SKU-00440,Pro Electronics-440,Toys,316.86
+P-0441,SKU-00441,Max Sports-441,Sports,$426.31
+P-0442,SKU-00442,Mini Home-442,Apparel,$81.83
+P-0443,SKU-00443,Ultra Beauty-443,Sports,368.64
+P-0444,SKU-00444,Classic Toys-444,Toys,100.56
+P-0445,SKU-00445,Ultra Beauty-445,Apparel,139.03
+P-0446,SKU-00446,Pro Apparel-446,Toys,356.40
+P-0447,SKU-00447,Pro Electronics-447,Apparel,490.20
+P-0448,SKU-00448,Mini Books-448,Apparel,307.71
+P-0449,SKU-00449,Pro Beauty-449,Grocery,31.98
+P-0450,SKU-00450,Pro Sports-450,Electronics,310.07
+P-0451,SKU-00451,Classic Electronics-451,Home & Kitchen,25.96
+P-0452,SKU-00452,Mini Apparel-452,Beauty,442.65
+P-0453,SKU-00453,Mini Books-453,Home & Kitchen,356.24
+P-0454,SKU-00454,Pro Books-454,Toys,90.70
+P-0455,SKU-00455,Pro Books-455,Toys,50.40
+P-0456,SKU-00456,Classic Electronics-456,Grocery,95.85
+P-0457,SKU-00457,Classic Toys-457,Toys,490.11
+P-0458,SKU-00458,Max Sports-458,Apparel,$231.99
+P-0459,SKU-00459,Ultra Toys-459,Home & Kitchen,$393.12
+P-0460,SKU-00460,Classic Books-460,Electronics,320.02
+P-0461,SKU-00461,Mini Books-461,Apparel,288.34
+P-0462,SKU-00462,Ultra Toys-462,Toys,$76.84
+P-0463,SKU-00463,Pro Books-463,Books,$473.28
+P-0464,SKU-00464,Pro Sports-464,Apparel,154.16
+P-0465,SKU-00465,Max Beauty-465,Home & Kitchen,291.12
+P-0466,SKU-00466,Ultra Home-466,Sports,351.39
+P-0467,SKU-00467,Pro Home-467,Toys,326.37
+P-0468,SKU-00468,Pro Books-468,Beauty,470.59
+P-0469,SKU-00469,Mini Beauty-469,Home & Kitchen,78.48
+P-0470,SKU-00470,Mini Books-470,Toys,256.63
+P-0471,SKU-00471,Classic Grocery-471,Home & Kitchen,205.00
+P-0472,SKU-00472,Max Beauty-472,Home & Kitchen,239.71
+P-0473,SKU-00473,Classic Sports-473,Grocery,64.01
+P-0474,SKU-00474,Ultra Books-474,Toys,71.38
+P-0475,SKU-00475,Max Beauty-475,Home & Kitchen,142.65
+P-0476,SKU-00476,Max Electronics-476,Grocery,155.83
+P-0477,SKU-00477,Ultra Grocery-477,Apparel,216.81
+P-0478,SKU-00478,Mini Grocery-478,Sports,307.44
+P-0479,SKU-00479,Ultra Toys-479,Apparel,319.14
+P-0480,SKU-00480,Max Grocery-480,Toys,208.85
+P-0481,SKU-00481,Classic Apparel-481,Beauty,207.35
+P-0482,SKU-00482,Classic Home-482,Electronics,112.73
+P-0483,SKU-00483,Mini Books-483,Toys,296.21
+P-0484,SKU-00484,Pro Sports-484,Beauty,$161.94
+P-0485,SKU-00485,Mini Grocery-485,Home & Kitchen,22.85
+P-0486,SKU-00486,Pro Grocery-486,Toys,212.11
+P-0487,SKU-00487,Pro Apparel-487,Home & Kitchen,239.70
+P-0488,SKU-00488,Classic Grocery-488,Grocery,116.67
+P-0489,SKU-00489,Pro Grocery-489,Grocery,288.37
+P-0490,SKU-00490,Classic Electronics-490,Apparel,285.06
+P-0491,SKU-00491,Classic Apparel-491,Home & Kitchen,$352.49
+P-0492,SKU-00492,Ultra Home-492,Books,325.73
+P-0493,SKU-00493,Mini Beauty-493,Home & Kitchen,327.95
+P-0494,SKU-00494,Mini Toys-494,,161.53
+P-0495,SKU-00495,Ultra Grocery-495,Toys,394.78
+P-0496,SKU-00496,Ultra Beauty-496,Apparel,$276.83
+P-0497,SKU-00497,Max Home-497,Beauty,218.55
+P-0498,SKU-00498,Classic Grocery-498,Books,314.88
+P-0499,SKU-00499,Max Toys-499,Books,183.53
+P-0500,SKU-00500,Mini Home-500,Sports,258.81
+P-0501,SKU-00501,Max Apparel-501,Books,369.67
+P-0502,SKU-00502,Classic Apparel-502,Home & Kitchen,$443.77
+P-0503,SKU-00503,Mini Home-503,Toys,460.92
+P-0504,SKU-00504,Max Home-504,Grocery,254.30
+P-0505,SKU-00505,Ultra Books-505,Electronics,262.54
+P-0506,SKU-00506,Pro Grocery-506,Toys,400.94
+P-0507,SKU-00507,Max Grocery-507,Grocery,160.65
+P-0508,SKU-00508,Mini Grocery-508,Electronics,419.50
+P-0509,SKU-00509,Ultra Sports-509,,249.60
+P-0510,SKU-00510,Classic Home-510,Grocery,62.35
+P-0511,SKU-00511,Pro Apparel-511,Books,40.67
+P-0512,SKU-00512,Pro Grocery-512,Toys,421.79
+P-0513,SKU-00513,Ultra Sports-513,Electronics,$32.51
+P-0514,SKU-00514,Classic Apparel-514,Apparel,143.90
+P-0515,SKU-00515,Ultra Beauty-515,Books,170.39
+P-0516,SKU-00516,Max Toys-516,Home & Kitchen,90.63
+P-0517,SKU-00517,Ultra Electronics-517,Sports,160.38
+P-0518,SKU-00518,Ultra Books-518,Sports,372.63
+P-0519,SKU-00519,Classic Apparel-519,Toys,12.27
+P-0520,SKU-00520,Classic Home-520,Home & Kitchen,414.45
+P-0521,SKU-00521,Classic Beauty-521,Toys,428.99
+P-0522,SKU-00522,Max Sports-522,Toys,189.27
+P-0523,SKU-00523,Pro Toys-523,Sports,81.04
+P-0524,SKU-00524,Classic Grocery-524,Books,302.42
+P-0525,SKU-00525,Pro Grocery-525,Books,64.24
+P-0526,SKU-00526,Max Toys-526,Toys,185.64
+P-0527,SKU-00527,Mini Sports-527,Sports,479.42
+P-0528,SKU-00528,Max Home-528,Grocery,497.75
+P-0529,SKU-00529,Pro Electronics-529,Grocery,387.19
+P-0530,SKU-00530,Ultra Grocery-530,Toys,$158.93
+P-0531,SKU-00531,Ultra Sports-531,Sports,345.39
+P-0532,SKU-00532,Classic Sports-532,Home & Kitchen,$354.18
+P-0533,SKU-00533,Classic Beauty-533,Apparel,$196.98
+P-0534,SKU-00534,Pro Beauty-534,Home & Kitchen,322.24
+P-0535,SKU-00535,Max Grocery-535,,10.31
+P-0536,SKU-00536,Pro Toys-536,Grocery,108.48
+P-0537,SKU-00537,Mini Apparel-537,Apparel,$264.92
+P-0538,SKU-00538,Classic Sports-538,Home & Kitchen,$86.06
+P-0539,SKU-00539,Ultra Apparel-539,Electronics,87.12
+P-0540,SKU-00540,Ultra Grocery-540,Beauty,418.97
+P-0541,SKU-00541,Ultra Toys-541,Grocery,494.62
+P-0542,SKU-00542,Pro Apparel-542,Apparel,280.20
+P-0543,SKU-00543,Mini Books-543,Books,420.34
+P-0544,SKU-00544,Ultra Sports-544,Beauty,495.21
+P-0545,SKU-00545,Max Sports-545,Electronics,75.09
+P-0546,SKU-00546,Classic Beauty-546,Beauty,226.88
+P-0547,SKU-00547,Classic Electronics-547,Beauty,199.32
+P-0548,SKU-00548,Pro Beauty-548,Apparel,44.62
+P-0549,SKU-00549,Pro Books-549,Home & Kitchen,378.89
+P-0550,SKU-00550,Max Toys-550,Home & Kitchen,219.72
+P-0551,SKU-00551,Pro Electronics-551,Electronics,237.32
+P-0552,SKU-00552,Pro Electronics-552,Toys,79.58
+P-0553,SKU-00553,Max Toys-553,Toys,94.56
+P-0554,SKU-00554,Max Home-554,Sports,$454.02
+P-0555,SKU-00555,Ultra Home-555,Toys,$27.10
+P-0556,SKU-00556,Pro Sports-556,Beauty,120.26
+P-0557,SKU-00557,Pro Toys-557,Electronics,$149.57
+P-0558,SKU-00558,Ultra Apparel-558,,247.65
+P-0559,SKU-00559,Pro Home-559,Books,$295.29
+P-0560,SKU-00560,Classic Home-560,Sports,249.18
+P-0561,SKU-00561,Pro Electronics-561,Toys,46.64
+P-0562,SKU-00562,Pro Sports-562,Apparel,125.62
+P-0563,SKU-00563,Max Books-563,Home & Kitchen,422.58
+P-0564,SKU-00564,Classic Apparel-564,Apparel,320.61
+P-0565,SKU-00565,Max Electronics-565,,326.33
+P-0566,SKU-00566,Ultra Electronics-566,Toys,336.75
+P-0567,SKU-00567,Ultra Electronics-567,Toys,382.64
+P-0568,SKU-00568,Ultra Toys-568,Books,33.76
+P-0569,SKU-00569,Pro Books-569,Electronics,186.47
+P-0570,SKU-00570,Max Electronics-570,Apparel,272.07
+P-0571,SKU-00571,Classic Sports-571,Grocery,172.54
+P-0572,SKU-00572,Ultra Sports-572,Sports,$423.02
+P-0573,SKU-00573,Ultra Grocery-573,Grocery,243.87
+P-0574,SKU-00574,Ultra Beauty-574,Toys,385.47
+P-0575,SKU-00575,Max Books-575,Electronics,$426.75
+P-0576,SKU-00576,Pro Toys-576,Sports,254.87
+P-0577,SKU-00577,Max Beauty-577,Electronics,$455.23
+P-0578,SKU-00578,Ultra Sports-578,Beauty,295.63
+P-0579,SKU-00579,Max Toys-579,Books,425.89
+P-0580,SKU-00580,Pro Apparel-580,Toys,173.59
+P-0581,SKU-00581,Max Electronics-581,Home & Kitchen,$251.91
+P-0582,SKU-00582,Classic Books-582,Toys,268.05
+P-0583,SKU-00583,Classic Books-583,Beauty,56.96
+P-0584,SKU-00584,Ultra Home-584,Apparel,$202.28
+P-0585,SKU-00585,Ultra Grocery-585,Toys,459.08
+P-0586,SKU-00586,Classic Beauty-586,Grocery,$317.26
+P-0587,SKU-00587,Pro Apparel-587,Sports,92.87
+P-0588,SKU-00588,Max Electronics-588,Books,172.73
+P-0589,SKU-00589,Ultra Books-589,Electronics,$99.84
+P-0590,SKU-00590,Classic Home-590,,17.29
+P-0591,SKU-00591,Mini Beauty-591,Apparel,464.09
+P-0592,SKU-00592,Ultra Apparel-592,,226.86
+P-0593,SKU-00593,Ultra Home-593,Toys,157.23
+P-0594,SKU-00594,Pro Sports-594,Apparel,301.25
+P-0595,SKU-00595,Pro Beauty-595,Grocery,$8.62
+P-0596,SKU-00596,Pro Books-596,Grocery,142.62
+P-0597,SKU-00597,Max Toys-597,Toys,$353.00
+P-0598,SKU-00598,Mini Toys-598,Beauty,318.72
+P-0599,SKU-00599,Classic Sports-599,Home & Kitchen,490.99
+P-0600,SKU-00600,Max Beauty-600,Grocery,$312.08
+P-0422,SKU-00422,Ultra Grocery-422,Toys,22.80
+P-0564,SKU-00564,Classic Apparel-564,Apparel,337.37
+P-0491,SKU-00491,Classic Apparel-491,Home & Kitchen,380.92
+P-0063,SKU-00063,Ultra Electronics-63,Home & Kitchen,297.36
+P-0090,SKU-00090,Pro Grocery-90,Grocery,276.46
+P-0287,SKU-00287,Classic Home-287,Sports,31.04
+P-0393,SKU-00393,Ultra Beauty-393,Grocery,317.92
+P-0141,SKU-00141,Ultra Beauty-141,Apparel,226.92
+P-0430,SKU-00430,Classic Sports-430,Grocery,420.14
+P-0205,SKU-00205,Max Toys-205,Home & Kitchen,11.76
+P-0539,SKU-00539,Ultra Apparel-539,Electronics,88.05
+P-0256,SKU-00256,Max Grocery-256,Books,385.82
+P-0557,SKU-00557,Pro Toys-557,Electronics,163.62
+P-0020,SKU-00020,Mini Apparel-20,Grocery,348.46
+P-0392,SKU-00392,Max Sports-392,Sports,62.58
+P-0368,SKU-00368,Classic Beauty-368,Sports,353.03
+P-0492,SKU-00492,Ultra Home-492,Books,342.02
+P-0558,SKU-00558,Ultra Apparel-558,,240.05

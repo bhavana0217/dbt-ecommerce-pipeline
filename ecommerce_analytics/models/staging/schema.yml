@@ -1,0 +1,82 @@
+version: 2
+
+models:
+  - name: stg_orders
+    description: >
+      One row per order line after cleaning. Grain: order_line_id.
+      This is the single trusted definition of "an order line" — everything
+      downstream builds on it.
+    columns:
+      - name: order_line_id
+        description: Source-system line identifier. Deduplicated.
+        tests: [unique, not_null]
+      - name: order_id
+        description: Groups lines into a customer order.
+        tests: [not_null]
+      - name: customer_id
+        description: Nullable — ~0.5% of lines arrive with no customer (orphans).
+        tests:
+          - relationships:
+              arguments:
+                to: ref('stg_customers')
+                field: customer_id
+      - name: product_id
+        description: Catalog product for this line.
+        tests:
+          - relationships:
+              arguments:
+                to: ref('stg_products')
+                field: product_id
+      - name: quantity
+        description: Units ordered. Always positive (data-entry negatives removed).
+      - name: unit_price_usd
+        description: Unit price normalized to USD via static illustrative FX rates.
+      - name: currency
+        description: Original currency code, upper-cased.
+        tests:
+          - accepted_values:
+              arguments:
+                values: ['USD', 'EUR', 'GBP']
+      - name: status
+        description: Order-line status, lower-cased.
+        tests:
+          - accepted_values:
+              arguments:
+                values: ['completed', 'cancelled', 'refunded', 'pending']
+      - name: created_at
+        description: Parsed order timestamp. Unparseable source values are dropped.
+        tests: [not_null]
+
+  - name: stg_customers
+    description: >
+      One row per customer after merging duplicate accounts on email.
+      Grain: customer_id.
+    columns:
+      - name: customer_id
+        description: Surviving customer id after dedupe (earliest signup wins).
+        tests: [unique, not_null]
+      - name: email
+        description: Lower-cased, trimmed. Null where the CRM had none.
+      - name: country
+        description: ISO-ish country code, or 'Unknown'.
+      - name: signup_date
+        description: First-seen date of the surviving account.
+      - name: updated_at
+        description: Last CRM update; drives the type-2 customer snapshot.
+
+  - name: stg_products
+    description: >
+      One row per product after resolving duplicate SKUs.
+      Grain: product_id.
+    columns:
+      - name: product_id
+        description: Catalog product id. Deduplicated.
+        tests: [unique, not_null]
+      - name: sku
+        description: Stock-keeping unit.
+      - name: product_name
+        description: Display name.
+      - name: category
+        description: Product category, or 'Uncategorized'.
+      - name: unit_price_usd
+        description: Catalog price normalized to numeric USD.

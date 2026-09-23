@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-09-23T16:22:14",
+  "seed": 42,
+  "window": {
+    "start": "2025-01-21",
+    "end": "2026-09-22"
+  },
+  "raw_products": 618,
+  "duplicate_product_skus": 18,
+  "products_missing_category": 23,
+  "raw_customers": 5092,
+  "customers_missing_email": 389,
+  "duplicate_customer_emails": 92,
+  "raw_order_lines": 32480,
+  "duplicate_order_lines": 480,
+  "negative_quantities": 310,
+  "unparseable_timestamps": 666,
+  "orphan_order_lines_no_customer": 159
+}

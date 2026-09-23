@@ -1,0 +1,12 @@
+# dbt profile for local development.
+# DuckDB is an embedded analytical database: no server, no cloud bill.
+# It runs the exact same dbt concepts (models, tests, docs, snapshots) as
+# Snowflake/BigQuery, so every skill here transfers 1:1 to a cloud warehouse.
+ecommerce_analytics:
+  target: dev
+  outputs:
+    dev:
+      type: duckdb
+      # Resolved relative to the directory dbt is run from (the repo root).
+      path: ecommerce.duckdb
+      threads: 4

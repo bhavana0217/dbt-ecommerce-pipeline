@@ -1,0 +1,49 @@
+version: 2
+
+models:
+  - name: mart_daily_revenue
+    description: >
+      Daily revenue mart — one row per calendar day, completed orders only.
+      This is the table a finance dashboard reads; it must reconcile exactly
+      to the underlying order lines (enforced by a singular test).
+    columns:
+      - name: date_day
+        description: Calendar date of the orders.
+        tests: [unique, not_null]
+      - name: orders
+        description: Distinct completed orders placed that day.
+      - name: order_lines
+        description: Completed order lines that day (an order can have several).
+      - name: revenue_usd
+        description: Total revenue in USD, rounded to cents. Never null.
+        tests: [not_null]
+      - name: avg_order_value_usd
+        description: revenue_usd / orders — average basket size that day.
+
+  - name: mart_customer_lifetime_value
+    description: >
+      Customer lifetime value mart — one row per customer with at least one
+      completed order. Inputs for retention and churn analysis.
+    columns:
+      - name: customer_id
+        description: Customer identifier, matches stg_customers.
+        tests: [unique, not_null]
+      - name: email
+        description: Customer email; null where the CRM never captured one.
+      - name: country
+        description: Customer country, or 'Unknown'.
+      - name: signup_date
+        description: First-seen date of the surviving (deduplicated) account.
+      - name: first_order_date
+        description: Date of the customer's first completed order.
+      - name: last_order_date
+        description: Date of the customer's most recent completed order.
+      - name: total_orders
+        description: Count of distinct completed orders.
+      - name: lifetime_revenue_usd
+        description: Sum of completed line revenue in USD, rounded to cents.
+        tests: [not_null]
+      - name: avg_order_value_usd
+        description: lifetime_revenue_usd / total_orders.
+      - name: days_since_last_order
+        description: Days between last_order_date and today — recency signal for churn models.

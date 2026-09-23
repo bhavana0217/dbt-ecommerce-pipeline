@@ -1,0 +1,10 @@
+# Local build artifacts — never commit these
+*.duckdb
+*.duckdb.wal
+target/
+logs/
+dbt_packages/
+__pycache__/
+*.pyc
+
+.user.yml

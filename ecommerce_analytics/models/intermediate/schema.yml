@@ -1,0 +1,24 @@
+version: 2
+
+models:
+  - name: int_order_lines
+    description: >
+      Enriched order lines: every line joined to its customer and product.
+      Grain: order_line_id. Orphan lines (no matching customer) are flagged,
+      not dropped.
+    columns:
+      - name: order_line_id
+        description: Unique line identifier, inherited from stg_orders.
+        tests: [unique, not_null]
+      - name: order_id
+        description: Groups lines into a customer order.
+        tests: [not_null]
+      - name: order_date
+        description: Calendar date of the order (from parsed created_at).
+        tests: [not_null]
+      - name: line_revenue_usd
+        description: quantity * unit_price_usd, rounded to cents.
+      - name: status
+        description: completed / cancelled / refunded / pending.
+      - name: is_orphan_order
+        description: True when the line's customer_id matched no customer.
